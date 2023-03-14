@@ -1,0 +1,22 @@
+1) Activate environment:
+conda activate yolov8
+2) Open the path where the resources are located:
+cd /d d:\
+cd #path
+3) pip install ultralytics
+4) pip install supervision
+
+CLI commands:
+5) Track people and count them:
+- Run program:
+python Path/CountingFunction.py
+- Stop program:
+Ctrl + c
+6) Track anything:
+yolo track model=yolov8n.pt source=0 show=True
+7) Track only people:
+yolo track model=yolov8n.pt source=0 show=True classes=0
+
+
+
+
